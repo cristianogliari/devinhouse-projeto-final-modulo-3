@@ -1,0 +1,55 @@
+# Frontend
+/Projetos/Frontend/node_modules
+/Projetos/Frontend/package-lock.json
+
+# Backend
+/Projetos/Backend/target
+
+# IDE
+/.vscode
+
+/Projetos/Backend/logs
+
+*/Projetos/Backend/.java.hsp
+*/Projetos/Backend/.sonarj
+*/Projetos/Backend/.sw*
+/Projetos/Backend/.DS_Store
+/Projetos/Backend/.settings
+/Projetos/Backend/.springBeans
+/Projetos/Backend/bin
+/Projetos/Backend/build.sh
+/Projetos/Backend/integration-repo
+/Projetos/Backend/ivy-cache
+/Projetos/Backend/jxl.log
+/Projetos/Backend/jmx.log
+/Projetos/Backend/derby.log
+/Projetos/Backend/spring-test/test-output/
+/Projetos/Backend/.gradle
+/Projetos/Backend/argfile*
+/Projetos/Backend/activemq-data/
+
+/Projetos/Backend/classes/
+/Projetos/Backend/build
+/Projetos/Backend/buildSrc/build
+/Projetos/Backend/spring-*/build
+/Projetos/Backend/spring-core/kotlin-coroutines/build
+/Projetos/Backend/framework-bom/build
+/Projetos/Backend/integration-tests/build
+/Projetos/Backend/src/asciidoc/build
+# /Projetos/Backend/target/
+/Projetos/Backend/.mvn
+
+# Eclipse artifacts, including WTP generated manifests
+/Projetos/Backend/.classpath
+/Projetos/Backend/.project
+/Projetos/Backend/spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+/Projetos/Backend/*.iml
+/Projetos/Backend/*.ipr
+/Projetos/Backend/*.iws
+/Projetos/Backend/.idea
+/Projetos/Backend/out
+/Projetos/Backend/test-output
+/Projetos/Backend/atlassian-ide-plugin.xml
+/Projetos/Backend/.gradletasknamecache
