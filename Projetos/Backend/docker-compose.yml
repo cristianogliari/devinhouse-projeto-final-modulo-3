@@ -1,11 +1,6 @@
 version: "3"
 
 services:
-  frontend:
-    image: frontend:0.1.0
-    restart: always
-    ports: 
-      - 3000:3000
   backend:
     image: backend:0.0.1-SNAPSHOT
     restart: always
