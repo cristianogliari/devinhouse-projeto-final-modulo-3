@@ -28,6 +28,8 @@
 /Projetos/Backend/argfile*
 /Projetos/Backend/activemq-data/
 
+
+/Projetos/Backend/.apt_generated_tests
 /Projetos/Backend/classes/
 /Projetos/Backend/build
 /Projetos/Backend/buildSrc/build
