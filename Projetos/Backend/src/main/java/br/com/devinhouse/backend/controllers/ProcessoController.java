@@ -64,7 +64,7 @@ public class ProcessoController {
 		
 	//	4 - Deverá haver um endpoint para buscar um processo baseado no seu número de processo (CHAVEPROCESSO);
 	@RolesAllowed("user-role")
-	@RequestMapping(value = "/buscar/chaveprocesso", produces = APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/buscar/chaveprocesso", method = GET, produces = APPLICATION_JSON_VALUE)
 	@ResponseStatus(HttpStatus.OK)
 	public Processo buscarProcessoPorChaveProcessoController(@RequestParam("value") String termo) {
 		LOGGER.info("Buscou o processo pela chave de processo: {}", termo);
@@ -73,7 +73,7 @@ public class ProcessoController {
 	
 	//	5 - Deverá haver um endpoint para buscar um ou mais processos baseado em seu interessado (CDINTERESSADO);
 	@RolesAllowed("user-role")
-	@RequestMapping(value = "/buscar/interessado/id/{interessado}", produces = APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/buscar/interessado/id/{interessado}", method = GET, produces = APPLICATION_JSON_VALUE)
 	@ResponseStatus(HttpStatus.OK)
 	public List<Processo> buscarProcessosPorInteressadosController(@PathVariable("interessado") Integer termo) {
 		LOGGER.info("Buscou os processos com interessado ID: {}", termo);
@@ -82,7 +82,7 @@ public class ProcessoController {
 	
 	//	6 - Deverá haver um endpoint para buscar um ou mais processos baseado em seu assunto (CDASSUNTO);
 	@RolesAllowed("user-role")
-	@RequestMapping(value = "/buscar/assunto/id/{assunto}", produces = APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/buscar/assunto/id/{assunto}", method = GET, produces = APPLICATION_JSON_VALUE)
 	@ResponseStatus(HttpStatus.OK)
 	public List<Processo> buscarProcessosPorAssuntoController(@PathVariable("assunto") Integer termo) {
 		LOGGER.info("Buscou os processos com o assunto ID: {}", termo);
