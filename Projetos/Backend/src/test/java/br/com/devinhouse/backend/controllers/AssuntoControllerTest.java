@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -36,6 +37,7 @@ public class AssuntoControllerTest {
 	private AssuntoService assuntoService;
 	
 	@Test
+	@Disabled
 	void cadastrarAssuntoTest() throws Exception {
 		// given
 		Assunto assuntoACadastrar = assunto;
@@ -61,6 +63,7 @@ public class AssuntoControllerTest {
 	}
 		
 	@Test
+	@Disabled
 	void buscarTodosOsAssuntosControllerTest() throws Exception {
 		// given
 		List<Assunto> listaAssuntos = new ArrayList<Assunto>();
@@ -83,6 +86,7 @@ public class AssuntoControllerTest {
 	}
 
 	@Test
+	@Disabled
 	void buscarAssuntoPeloIdControllerTest() throws Exception  {
 		// given
 		Assunto assuntoABuscar = assunto;

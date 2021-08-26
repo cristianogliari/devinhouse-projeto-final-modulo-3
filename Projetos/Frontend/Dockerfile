@@ -7,5 +7,3 @@ COPY . .
 RUN npm install
 
 CMD ["npm", "start"]
-
-# docker image build --network host -t frontend:0.1.0 .

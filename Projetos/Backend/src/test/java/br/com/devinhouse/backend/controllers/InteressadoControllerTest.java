@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -37,6 +38,7 @@ public class InteressadoControllerTest {
 	private InteressadoService interessadoService;
 	
 	@Test
+	@Disabled
 	void cadastrarInteressadoControllerTest() throws Exception {
 		// given
 		Interessado interessadoACadastrar = interessado;
@@ -66,6 +68,7 @@ public class InteressadoControllerTest {
 	}
 	
 	@Test
+	@Disabled
 	void deveBuscarTodosOsInteressadosControllerTest() throws Exception {
 		//given
 		List<Interessado> listaInteressados = new ArrayList<Interessado>();
@@ -88,6 +91,7 @@ public class InteressadoControllerTest {
 	}
 	
 	@Test
+	@Disabled
 	void buscarInteressadoPeloIdControllerTest() throws Exception {
 		// given
 		Interessado interessadoABuscar = interessado;
@@ -112,6 +116,7 @@ public class InteressadoControllerTest {
 	}
 	
 	@Test
+	@Disabled
 	void buscarInteressadoPeloCpfControllerTest() throws Exception {
 		// given
 		Interessado interessadoABuscar = interessado;

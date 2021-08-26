@@ -41,6 +41,7 @@ public class ProcessoControllerTest {
 	private ProcessoService processoService;
 	
 	@Test
+	@Disabled
 	void criarProcessoControllerTest() throws Exception {
 		// given
 		Processo processoACadastrar = processo;
@@ -71,6 +72,7 @@ public class ProcessoControllerTest {
 	}
 
 	@Test
+	@Disabled
 	void buscarTodosOsProcessosControllerTest() throws Exception {
 		// given
 		List<Processo> listaProcessos = new ArrayList<Processo>();
@@ -115,6 +117,7 @@ public class ProcessoControllerTest {
 	//}
 	
 	@Test
+	@Disabled
 	void buscarProcessoPorChaveProcessoControllerTest() throws Exception {
 		// given
 		Processo processoABuscar = processo;
@@ -139,6 +142,7 @@ public class ProcessoControllerTest {
 	}
 	
 	@Test
+	@Disabled
 	void buscarProcessosPorInteressadosControllerTest() throws Exception {
 		// given
 		Processo processoABuscar = processo;
@@ -166,6 +170,7 @@ public class ProcessoControllerTest {
 	}
 	
 	 @Test
+	 @Disabled
 	 void buscarProcessosPorAssuntoControllerTest() throws Exception {
 		// given
 		Processo processoABuscar = processo;
@@ -193,6 +198,7 @@ public class ProcessoControllerTest {
 	}
 	
 	 @Test
+	 @Disabled
 	 void atualizarProcessoPorIDControllerTest() throws Exception {
 		// given
 			Processo processoAAtualizar = processo;
@@ -218,6 +224,7 @@ public class ProcessoControllerTest {
 		}
 	
 	@Test
+	@Disabled
 	void removerProcessoPorIDControllerTest() throws Exception {
 		// given
 		int expectedId = 1;
