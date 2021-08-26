@@ -2,11 +2,17 @@ version: "3"
 
 services:
   frontend:
+    build: 
+      context: ./Projetos/Frontend/
+      dockerfile: Dockerfile
     image: frontend:0.1.0
     restart: always
     ports: 
       - 3000:3000
   backend:
+    build: 
+      context: ./Projetos/Backend/
+      dockerfile: Dockerfile
     image: backend:0.0.1-SNAPSHOT
     restart: always
     ports:
