@@ -8,7 +8,7 @@
 ## Processo automatizado
 
 - Acesse a raiz do repositorio e execute o comando ``docker-compose up``.
--- Este comando será responsável por buildar e criar as imagens necessárias e rodar para acesso.
+  -- Este comando será responsável por buildar e criar as imagens necessárias e rodar para acesso.
 - Os dados de acesso estão disponíveis no tópico *Utilização final*.
 
 ## Processo manual
