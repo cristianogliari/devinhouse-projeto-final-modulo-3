@@ -15,15 +15,15 @@
 ### Backend
 - Acesse a pasta do backend e execute o comando ``mvn clean package install`` para que o arquivo JAR seja gerado.
 - Ainda na pasta backend, crie a imagem docker para poder executar juntamente com o docker-compose da raiz, que sobe o projeto completo (front e backend) ou somente o backend(docker-compose na pasta backend).
--- Para criar a imagem do docker, dentro de backend, execute o comando ``docker image build -t backend:0.0.1-SNAPSHOT .``.
+  - Para criar a imagem do docker, dentro de backend, execute o comando ``docker image build -t backend:0.0.1-SNAPSHOT .``.
 
 ### Frontend
 - Acesse a pasta do frontend dentro do repositório e crie a imagem docker executando o comando ``docker image build --network host -t frontend:0.1.0 .``.
 
 ## Utilização final
 - Na raiz do repositório, execute o comando ``docker-compose up`` para que as imagens sejam executadas e disponibilizem o projeto para acesso.
--- Usuário do sistema: bezos
--- Senha do usuário do sistema: 123456
+  - Usuário do sistema: bezos
+  - Senha do usuário do sistema: 123456
 
 ### Arquitetura da aplicação
 ![](./images/relacao.png)
